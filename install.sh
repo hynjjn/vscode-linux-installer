@@ -45,7 +45,7 @@ main() {
         $curl "https://packages.microsoft.com/keys/microsoft.asc" | gpg --dearmor | \
             show $sudo install -DTm644 /dev/stdin "/usr/share/keyrings/microsoft.gpg"
 
-	printf "Types: deb\nURIs: https://packages.microsoft.com/repos/code\nSuites: stable\nComponents: main\nArchitectures: amd64 arm64 armhf\nSigned-By: /usr/share/keyrings/microsoft.gpg\n" | \
+        printf "Types: deb\nURIs: https://packages.microsoft.com/repos/code\nSuites: stable\nComponents: main\nArchitectures: amd64 arm64 armhf\nSigned-By: /usr/share/keyrings/microsoft.gpg\n" | \
             show $sudo install -DTm644 /dev/stdin "/etc/apt/sources.list.d/vscode.sources"
 
         show $sudo rm -f /etc/apt/sources.list.d/vscode.list
