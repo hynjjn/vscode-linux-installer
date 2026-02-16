@@ -3,9 +3,6 @@
 Microsoft was too lazy to make the universal script for installing VS Code. I made it for them.
 
 ## 🚀 Quick Start
-
-You can run the installer directly via `curl` or `wget`:
-
 ```bash
 curl -fsSL https://raw.githubusercontent.com/hynjjn/vscode-linux-installer/main/install.sh | sh
 ```
