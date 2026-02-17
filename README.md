@@ -17,5 +17,3 @@ curl -fsSL https://raw.githubusercontent.com/hynjjn/vscode-linux-installer/main/
 | **Solus** | Solus |
 | **Immutable** | Fedora Silverblue, Fedora Kinoite (via `rpm-ostree`) |
 
----
-*Disclaimer: This script is an independent community project and is not officially affiliated with Microsoft Corporation.*
